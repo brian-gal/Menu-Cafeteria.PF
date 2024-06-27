@@ -1,6 +1,5 @@
 /* ------------------------estilos para el icono de carrito------------------------------ */
 .contenedorIconoCarrito {
-    display: none;
     position: fixed;
     bottom: 10px;
     right: 10px;
@@ -23,16 +22,16 @@
 
         span {
             position: absolute;
-            bottom: 24px;
+            bottom: 26px;
             left: 7.3px;
             width: 28px;
+            height: 21px;
             background-color: #8cc63f;
             border-radius: 53% 47% 48% 52% / 26% 26% 74% 74%;
             color: #6b4424;
             text-align: center;
             font-size: 1.1rem;
             font-weight: 700;
-
         }
     }
 }

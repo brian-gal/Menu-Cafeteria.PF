@@ -164,7 +164,8 @@ main {
   background-color: #218838;
 }
 
-.footer-container {
+/* ----------------FOOTER------------------- */
+.FOOTER-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -172,20 +173,20 @@ main {
   padding: 20px;
   border-top: 1px solid #ddd;
 }
-.footer-container .footer-section {
+.FOOTER-container .footer-section {
   width: 20%;
   margin: 10px 0;
 }
-.footer-container .footer-section h4 {
+.FOOTER-container .footer-section h4 {
   margin-bottom: 10px;
   color: #333;
 }
-.footer-container .footer-section p,
-.footer-container .footer-section a {
+.FOOTER-container .footer-section p,
+.FOOTER-container .footer-section a {
   color: #666;
   text-decoration: none;
 }
-.footer-container .footer-section a:hover {
+.FOOTER-container .footer-section a:hover {
   text-decoration: underline;
 }
 
@@ -199,7 +200,6 @@ main {
 
 /* ------------------------estilos para el icono de carrito------------------------------ */
 .contenedorIconoCarrito {
-  display: none;
   position: fixed;
   bottom: 10px;
   right: 10px;
@@ -222,9 +222,10 @@ main {
 }
 .contenedorIconoCarrito .buttonCard span {
   position: absolute;
-  bottom: 24px;
+  bottom: 26px;
   left: 7.3px;
   width: 28px;
+  height: 21px;
   background-color: #8cc63f;
   border-radius: 53% 47% 48% 52%/26% 26% 74% 74%;
   color: #6b4424;
@@ -375,6 +376,7 @@ main {
   background-color: #157347;
 }
 
+/* --------------------ANIMACIONES----------------------- */
 /* icono flotante de carrito */
 .contenedorIconoCarrito {
   animation: fadeIn 2s forwards, bounce 1s ease infinite 1.5s;
@@ -396,6 +398,10 @@ main {
 .buttonAgregarCarrito.clicked .bi-cart-check-fill {
   animation: moverCart2 2s forwards;
   animation-delay: 1.2s;
+}
+
+#cart-count {
+  animation: text3 1s forwards;
 }
 
 @keyframes bounce {
@@ -432,6 +438,14 @@ main {
   100% {
     opacity: 1;
     scale: 2.5;
+  }
+}
+@keyframes text3 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
 @keyframes moverCart {

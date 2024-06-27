@@ -67,6 +67,7 @@ function actualizaConteo() {
     if (cantidadTotal > 0) {
         cartCount.textContent = `${cantidadTotal}`;
         carritoSuma.textContent = `Total: $${precioTotal.toFixed(2)}`;
+        cartCount.style.display = ""
         compra.style.display = ""
         vaciarCarrito.style.display = ""
     } else {
@@ -74,8 +75,8 @@ function actualizaConteo() {
             <p>¡Empezá un carrito de compras!</p>
             <p>Sumá productos y disfrutá de nuestras delicias.</p>
         `;
-        cartCount.textContent = ``;
-        carritoSuma.textContent = ``;
+        cartCount.style.display = "none"
+        carritoSuma.style.display = `none`;
         compra.style.display = "none"
         vaciarCarrito.style.display = "none"
     }
