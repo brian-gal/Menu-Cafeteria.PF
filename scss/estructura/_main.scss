@@ -1,0 +1,143 @@
+/* --------------MAIN------------------ */
+
+main {
+    padding: 20px;
+}
+
+#navegacion {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+    overflow-x: auto;
+    width: 100%;
+
+    &::-webkit-scrollbar {
+        height: 8px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: #ccc;
+        border-radius: 10px;
+    }
+
+    &::-webkit-scrollbar-track {
+        background: transparent;
+    }
+
+    a {
+        text-decoration: none;
+        text-align: center;
+        font-size: clamp(20px, 2vw, 25px);
+        color: #333;
+        padding: 10px 15px;
+        border-radius: 5px;
+        background-color: #f9e8e8;
+        transition: background-color 0.3s ease;
+
+        &:hover {
+            background-color: #d3d1d1;
+        }
+    }
+}
+
+
+.categoria {
+    margin-bottom: 30px;
+
+    h2 {
+        text-align: center;
+        font-size: 50px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        padding-bottom: 5px;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .menu-items {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+
+        .menu-item {
+            flex-grow: 1;
+            max-width: 300px;
+            flex-shrink: 1;
+            width: clamp(160px, 20vw, 260px);
+            box-sizing: border-box;
+
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            text-align: center;
+            background-color: #f9f9f9;
+
+            h3 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: auto;
+                min-height: 70px;
+                font-size: clamp(20px, 3vw, 25px);
+            }
+
+            img {
+                width: 100%;
+                max-width: 200px;
+                height: 170px;
+                object-fit: cover;
+                border-radius: 10px;
+            }
+
+            p {
+                height: 28px;
+                margin: 16px 0 16px;
+                font-size: 1.2em;
+                color: #333;
+            }
+
+            .divAgregarCarrito {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .buttonAgregarCarrito {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 10px 20px;
+                    background-color: #28a745;
+                    color: #fff;
+                    border: none;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    height: auto;
+                    font-size: clamp(13px, 3vw, 16px);
+                    overflow: hidden;
+                    position: relative;
+
+                    i {
+                        scale: 1.8;
+                        color: #ffffff;
+                        position: absolute;
+                        opacity: 0;
+                    }
+
+                    .added {
+                        color: #ffffff;
+                    }
+
+                    .added2 {
+                        position: absolute;
+                        opacity: 0;
+                    }
+
+                    &:hover {
+                        background-color: #218838;
+                    }
+                }
+            }
+        }
+    }
+}

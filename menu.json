@@ -1,0 +1,324 @@
+[
+    {
+        "categoria": "Bebidas Calientes",
+        "nombre": "Café Espresso",
+        "precio": 1500,
+        "descripcion": "Una pequeña cantidad de café concentrado y fuerte.",
+        "foto": "./assets/1.webp"
+    },
+    {
+        "categoria": "Bebidas Calientes",
+        "nombre": "Café Americano",
+        "precio": 2000,
+        "descripcion": "Café espresso diluido en agua caliente.",
+        "foto": "./assets/2.webp"
+    },
+    {
+        "categoria": "Bebidas Calientes",
+        "nombre": "Café Latte",
+        "precio": 2500,
+        "descripcion": "Café espresso con una cantidad generosa de leche vaporizada y espuma de leche.",
+        "foto": "./assets/3.webp"
+    },
+    {
+        "categoria": "Bebidas Calientes",
+        "nombre": "Cappuccino",
+        "precio": 2200,
+        "descripcion": "Café espresso con vapor de leche y una capa de espuma de leche.",
+        "foto": "./assets/4.webp"
+    },
+    {
+        "categoria": "Bebidas Calientes",
+        "nombre": "Café Macchiato",
+        "precio": 1800,
+        "descripcion": "Café espresso 'manchado' con una pequeña cantidad de leche vaporizada.",
+        "foto": "./assets/5.webp"
+    },
+    {
+        "categoria": "Bebidas Calientes",
+        "nombre": "Café Moka",
+        "precio": 2800,
+        "descripcion": "Café espresso con chocolate y leche vaporizada.",
+        "foto": "./assets/6.webp"
+    },
+    {
+        "categoria": "Bebidas Calientes",
+        "nombre": "Chocolate Caliente",
+        "precio": 1800,
+        "descripcion": "Chocolate derretido mezclado con leche caliente.",
+        "foto": "./assets/7.webp"
+    },
+    {
+        "categoria": "Bebidas Calientes",
+        "nombre": "Té Negro",
+        "precio": 1200,
+        "descripcion": "Té negro tradicionalmente servido caliente y sin leche.",
+        "foto": "./assets/8.webp"
+    },
+    {
+        "categoria": "Bebidas Calientes",
+        "nombre": "Té Verde",
+        "precio": 1300,
+        "descripcion": "Té verde con un sabor más fresco y herbáceo.",
+        "foto": "./assets/9.webp"
+    },
+    {
+        "categoria": "Bebidas Calientes",
+        "nombre": "Té de Hierbas",
+        "precio": 1400,
+        "descripcion": "Infusión de hierbas como manzanilla, menta o frutos del bosque.",
+        "foto": "./assets/10.webp"
+    },
+    {
+        "categoria": "Bebidas Calientes",
+        "nombre": "Mate Cocido",
+        "precio": 1000,
+        "descripcion": "Infusión de yerba mate servida caliente.",
+        "foto": "./assets/11.webp"
+    },
+    {
+        "categoria": "Bebidas Calientes",
+        "nombre": "Infusión de Salvia",
+        "precio": 1100,
+        "descripcion": "Infusión de salvia con propiedades digestivas.",
+        "foto": "./assets/12.webp"
+    },
+    {
+        "categoria": "Bebidas Calientes",
+        "nombre": "Infusión de Manzanilla",
+        "precio": 1100,
+        "descripcion": "Infusión de manzanilla con propiedades calmantes.",
+        "foto": "./assets/13.webp"
+    },
+    {
+        "categoria": "Bebidas Calientes",
+        "nombre": "Chocolate con crema",
+        "precio": 110,
+        "descripcion": "Chocolate caliente con crema batida.",
+        "foto": "./assets/14.webp"
+    },
+    {
+        "categoria": "Bebidas Calientes",
+        "nombre": "Leche Caliente",
+        "precio": 800,
+        "descripcion": "Leche caliente para beber sola o con café.",
+        "foto": "./assets/15.webp"
+    },
+    {
+        "categoria": "Bebidas Frias",
+        "nombre": "Café Frío",
+        "precio": 2500,
+        "descripcion": "Café preparado en frío y servido con hielo.",
+        "foto": "./assets/16.webp"
+    },
+    {
+        "categoria": "Bebidas Frias",
+        "nombre": "Té Helado",
+        "precio": 1500,
+        "descripcion": "Té preparado en frío y servido con hielo.",
+        "foto": "./assets/17.webp"
+    },
+    {
+        "categoria": "Bebidas Frias",
+        "nombre": "Limonada",
+        "precio": 1000,
+        "descripcion": "Jugo de limón con agua y azúcar.",
+        "foto": "./assets/18.webp"
+    },
+    {
+        "categoria": "Bebidas Frias",
+        "nombre": "Jugo de Naranja",
+        "precio": 1200,
+        "descripcion": "Jugo natural de naranja.",
+        "foto": "./assets/19.webp"
+    },
+    {
+        "categoria": "Bebidas Frias",
+        "nombre": "Licuados de Frutas",
+        "precio": 1600,
+        "descripcion": "Batidos de frutas frescas con leche o yogur.",
+        "foto": "./assets/20.webp"
+    },
+    {
+        "categoria": "Bebidas Frias",
+        "nombre": "Milkshakes",
+        "precio": 1800,
+        "descripcion": "Batidos de leche con saborizante y helado.",
+        "foto": "./assets/21.webp"
+    },
+    {
+        "categoria": "Bebidas Frias",
+        "nombre": "Smoothies",
+        "precio": 1700,
+        "descripcion": "Batidos de frutas naturales con hielo.",
+        "foto": "./assets/22.webp"
+    },
+    {
+        "categoria": "Gaseosas",
+        "nombre": "Agua Saborizada",
+        "precio": 900,
+        "descripcion": "Agua con saborizante y gas.",
+        "foto": "./assets/23.webp"
+    },
+    {
+        "categoria": "Gaseosas",
+        "nombre": "Gaseosas",
+        "precio": 1000,
+        "descripcion": "Refrescos carbonatados.",
+        "foto": "./assets/24.webp"
+    },
+    {
+        "categoria": "Reposteria",
+        "nombre": "Bolitas de Fraile",
+        "precio": 1200,
+        "descripcion": "Bolitas de masa dulce fritas y espolvoreadas con azúcar.",
+        "foto": "./assets/25.webp"
+    },
+    {
+        "categoria": "Merienda",
+        "nombre": "Medialuna",
+        "precio": 900,
+        "descripcion": "Medialuna recién horneada con mantequilla.",
+        "foto": "./assets/26.webp"
+    },
+    {
+        "categoria": "Merienda",
+        "nombre": "Medialuna de Jamón y Queso",
+        "precio": 1100,
+        "descripcion": "Medialuna rellena de jamón y queso.",
+        "foto": "./assets/27.webp"
+    },
+    {
+        "categoria": "Merienda",
+        "nombre": "Sándwich de Jamón y Queso",
+        "precio": 1200,
+        "descripcion": "Sándwich clásico con jamón y queso en pan blanco.",
+        "foto": "./assets/28.webp"
+    },
+    {
+        "categoria": "Merienda",
+        "nombre": "Sándwich de miga con pollo crispy",
+        "precio": 1300,
+        "descripcion": "Sándwich de miga triple con pollo crispy.",
+        "foto": "./assets/29.webp"
+    },
+    {
+        "categoria": "Merienda",
+        "nombre": "Tostada con palta",
+        "precio": 7000,
+        "descripcion": "Tostada de pan blanco con palta.",
+        "foto": "./assets/30.webp"
+    },
+    {
+        "categoria": "Merienda",
+        "nombre": "Tostada con Manteca y Mermelada",
+        "precio": 3800,
+        "descripcion": "Tostada de pan blanco con manteca y mermelada.",
+        "foto": "./assets/31.webp"
+    },
+    {
+        "categoria": "Reposteria",
+        "nombre": "Waffle",
+        "precio": 3110,
+        "descripcion": "Waffle belga con sirope de arce.",
+        "foto": "./assets/32.webp"
+    },
+    {
+        "categoria": "Reposteria",
+        "nombre": "Waffle con Frutas",
+        "precio": 3130,
+        "descripcion": "Waffle belga con frutas frescas y crema.",
+        "foto": "./assets/33.webp"
+    },
+    {
+        "categoria": "Reposteria",
+        "nombre": "Churros",
+        "precio": 3100,
+        "descripcion": "Churros recién horneados.",
+        "foto": "./assets/34.webp"
+    },
+    {
+        "categoria": "Reposteria",
+        "nombre": "Churros con Dulce de Leche",
+        "precio": 3120,
+        "descripcion": "Churros con dulce de leche.",
+        "foto": "./assets/35.webp"
+    },
+    {
+        "categoria": "Reposteria",
+        "nombre": "Waffle de chocolate",
+        "precio": 3130,
+        "descripcion": "Waffle de chocolate con helado.",
+        "foto": "./assets/36.webp"
+    },
+    {
+        "categoria": "Reposteria",
+        "nombre": "Croissant",
+        "precio": 5090,
+        "descripcion": "Croissant recién horneado con mantequilla.",
+        "foto": "./assets/37.webp"
+    },
+    {
+        "categoria": "Reposteria",
+        "nombre": "Magdalena",
+        "precio": 1700,
+        "descripcion": "Magdalena esponjosa y dulce.",
+        "foto": "./assets/38.webp"
+    },
+    {
+        "categoria": "Reposteria",
+        "nombre": "Muffin",
+        "precio": 3580,
+        "descripcion": "Muffin esponjoso con trozos de chocolate.",
+        "foto": "./assets/39.webp"
+    },
+    {
+        "categoria": "Reposteria",
+        "nombre": "Brownie",
+        "precio": 3100,
+        "descripcion": "Brownie de chocolate con nueces.",
+        "foto": "./assets/40.webp"
+    },
+    {
+        "categoria": "Reposteria",
+        "nombre": "Cheesecake",
+        "precio": 3120,
+        "descripcion": "Cheesecake con base de galleta y crema de queso.",
+        "foto": "./assets/41.webp"
+    },
+    {
+        "categoria": "Reposteria",
+        "nombre": "Torta de Manzana",
+        "precio": 4110,
+        "descripcion": "Torta de manzana con canela.",
+        "foto": "./assets/42.webp"
+    },
+    {
+        "categoria": "Reposteria",
+        "nombre": "Torta de Chocolate",
+        "precio": 4130,
+        "descripcion": "Torta de chocolate con cobertura de chocolate.",
+        "foto": "./assets/43.webp"
+    },
+    {
+        "categoria": "Reposteria",
+        "nombre": "Tiramisú",
+        "precio": 4140,
+        "descripcion": "Postre italiano con capas de bizcocho y crema de mascarpone.",
+        "foto": "./assets/44.webp"
+    },
+    {
+        "categoria": "Reposteria",
+        "nombre": "Flan",
+        "precio": 4150,
+        "descripcion": "Flan casero con caramelo.",
+        "foto": "./assets/45.webp"
+    },
+    {
+        "categoria": "Reposteria",
+        "nombre": "Cookie",
+        "precio": 4090,
+        "descripcion": "Galleta grande con trozos de chocolate.",
+        "foto": "./assets/46.webp"
+    }
+]

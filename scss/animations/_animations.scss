@@ -1,0 +1,121 @@
+/* icono flotante de carrito */
+.contenedorIconoCarrito {
+    animation: fadeIn 2s forwards, bounce 1s ease infinite 1.5s;
+}
+
+/* animacion de boton agregar carrito */
+.buttonAgregarCarrito.clicked {
+
+    animation: expandWidth 2s forwards 1s;
+
+    .added {
+        animation: text1 1s forwards;
+    }
+
+    .added2 {
+        animation: text2 1.5s forwards 1.5s;
+    }
+
+    .bi-cart {
+        animation: moverCart 2s forwards;
+    }
+
+    .bi-cart-check-fill {
+        animation: moverCart2 2s forwards;
+        animation-delay: 1.2s;
+    }
+}
+
+@keyframes bounce {
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.1);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes text1 {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes text2 {
+    0% {
+        opacity: 0;
+        scale: 0.4;
+    }
+
+    100% {
+        opacity: 1;
+        scale: 2.5;
+    }
+}
+
+@keyframes moverCart {
+    0% {
+        opacity: 1;
+        transform: translateX(-450%);
+    }
+
+    66% {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+
+    80% {
+        opacity: 1;
+    }
+
+    90% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateX(0%);
+    }
+}
+
+@keyframes moverCart2 {
+    0% {
+        opacity: 0;
+        transform: translateX(0%);
+    }
+
+    10% {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+
+    34% {
+        opacity: 1;
+        transform: translateX(0%) rotate(0deg);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(450%) rotate(-30deg);
+
+    }
+}
+

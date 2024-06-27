@@ -1,0 +1,14 @@
+// Reset
+@import './reset/reset';
+
+//estructura
+@import './estructura/header';
+@import './estructura/main';
+@import './estructura/footer';
+@import './estructura/carrito';
+
+// Animaciones
+@import './animations/animations';
+
+// media query
+@import './estructura/media-query';

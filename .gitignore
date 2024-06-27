@@ -1,0 +1,5 @@
+# Ignorar el archivo package.json de sass
+package.json
+
+# Ignorar el archivo style.css.map en la carpeta css
+css/style.css.map
