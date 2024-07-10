@@ -68,6 +68,7 @@ function actualizaConteo() {
         cartCount.textContent = `${cantidadTotal}`;
         carritoSuma.textContent = `Total: $${precioTotal.toFixed(2)}`;
         cartCount.style.display = ""
+        carritoSuma.style.display = ``;
         compra.style.display = ""
         vaciarCarrito.style.display = ""
     } else {
