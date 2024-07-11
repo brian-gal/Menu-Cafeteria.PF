@@ -7,10 +7,16 @@ main {
 #navegacion {
     display: flex;
     justify-content: center;
+    position: sticky;
+    background-color: #ffffff;
+    top: 0px;
     gap: 15px;
-    margin: 20px 0;
+    margin: 10px 0;
+    padding: 10px 0;
     overflow-x: auto;
     width: 100%;
+    z-index: 1000;
+    border-bottom: solid 1px black;
 
     &::-webkit-scrollbar {
         height: 8px;
@@ -46,6 +52,7 @@ main {
     margin-bottom: 30px;
 
     h2 {
+        scroll-margin-top: 78.5px;
         text-align: center;
         font-size: 50px;
         font-weight: bold;

@@ -48,10 +48,16 @@ main {
 #navegacion {
   display: flex;
   justify-content: center;
+  position: sticky;
+  background-color: #ffffff;
+  top: 0px;
   gap: 15px;
-  margin: 20px 0;
+  margin: 10px 0;
+  padding: 10px 0;
   overflow-x: auto;
   width: 100%;
+  z-index: 1000;
+  border-bottom: solid 1px black;
 }
 #navegacion::-webkit-scrollbar {
   height: 8px;
@@ -81,6 +87,7 @@ main {
   margin-bottom: 30px;
 }
 .categoria h2 {
+  scroll-margin-top: 78.5px;
   text-align: center;
   font-size: 50px;
   font-weight: bold;
@@ -165,7 +172,7 @@ main {
 }
 
 /* ----------------FOOTER------------------- */
-.FOOTER-container {
+.footer-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -173,20 +180,20 @@ main {
   padding: 20px;
   border-top: 1px solid #ddd;
 }
-.FOOTER-container .footer-section {
+.footer-container .footer-section {
   width: 20%;
   margin: 10px 0;
 }
-.FOOTER-container .footer-section h4 {
+.footer-container .footer-section h4 {
   margin-bottom: 10px;
   color: #333;
 }
-.FOOTER-container .footer-section p,
-.FOOTER-container .footer-section a {
+.footer-container .footer-section p,
+.footer-container .footer-section a {
   color: #666;
   text-decoration: none;
 }
-.FOOTER-container .footer-section a:hover {
+.footer-container .footer-section a:hover {
   text-decoration: underline;
 }
 
